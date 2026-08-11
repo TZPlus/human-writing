@@ -60,6 +60,22 @@ Agent 会读取仓库、找到 `human-writing`，完成安装。装好之后显�
 使用 $human-writing，把我的材料写成一篇有活人感和中文韵律的作品。
 ```
 
+## WorkBuddy 专家
+
+仓库同时提供一份 WorkBuddy 专家包。它加载的是上面的完整 Skill，不是把蒸馏版再粘贴一遍。Skill 仍然只有 `human-writing/` 这一份，打包脚本会在构建时把它放进 WorkBuddy 要求的标准目录，后续改规则不会出现两套内容各走各的。
+
+```bash
+python3 scripts/build_workbuddy_expert.py
+```
+
+脚本会先检查清单字段、Agent 名称、头像尺寸、展示文案和 Skill 路径，再生成：
+
+```text
+dist/workbuddy/khazix-human-writing-1.1.0.zip
+```
+
+在 WorkBuddy 里打开「专家 → 我的专家 → 创建专家」，上传这个 ZIP 即可进入平台校验和审核。包内不含 Token、密钥或外部连接器配置。
+
 ## 1.1.0 改了什么
 
 1.0 用字符串禁令拦 AI 味——禁「不是……而是……」、禁冒号、禁一批黑话。有效，但模型会换一套字面继续做同样的事。「你以为……其实……」「回头才发现」和「不是A而是B」是同一个姿势，读者认的是姿势，不是字。

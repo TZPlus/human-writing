@@ -1,0 +1,71 @@
+{
+  "name": "khazix-human-writing",
+  "version": "1.1.0",
+  "description": "Creates and revises grounded Chinese writing with natural rhythm and a distinct human voice.",
+  "author": {
+    "name": "Khazix",
+    "email": "wzglyay@virxact.com"
+  },
+  "homepage": "https://github.com/KKKKhazix/human-writing",
+  "license": "MIT",
+  "keywords": [
+    "chinese-writing",
+    "writing-revision",
+    "human-voice"
+  ],
+  "agents": [
+    "./agents/human-writing.md"
+  ],
+  "skills": [
+    "./skills/human-writing"
+  ],
+  "expertType": "agent",
+  "agentName": "human-writing",
+  "displayName": {
+    "en": "Human Writing",
+    "zh": "活人感写作"
+  },
+  "profession": {
+    "en": "Chinese Writing and Revision Expert",
+    "zh": "中文创作与改稿专家"
+  },
+  "displayDescription": {
+    "en": "Starts from source material and factual boundaries, then writes or revises Chinese prose with natural rhythm, concrete detail, clear judgment, and none of the usual model voice.",
+    "zh": "先核材料与事实边界，再完成中文创作和改稿，清理重复、报告腔与模型腔，让文字像一个具体的人在说话"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "en": "Use Human Writing to turn my materials into a grounded Chinese piece that sounds like a real person.",
+    "zh": "使用活人感写作，把我的材料写成一篇有事实支撑、读起来像具体的人在说话的作品"
+  },
+  "plugin": "khazix-human-writing",
+  "tags": [
+    {
+      "en": "Chinese Writing",
+      "zh": "中文写作"
+    },
+    {
+      "en": "Fact-Grounded",
+      "zh": "事实边界"
+    },
+    {
+      "en": "Natural Revision",
+      "zh": "自然改稿"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Use Human Writing to turn my materials into a grounded Chinese piece that sounds like a real person.",
+      "zh": "使用活人感写作，把我的材料写成一篇有事实支撑、读起来像具体的人在说话的作品"
+    },
+    {
+      "en": "Rewrite this AI-sounding Chinese draft so it reads naturally.",
+      "zh": "把这篇 AI 味很重的中文稿改得自然一些"
+    },
+    {
+      "en": "Write a WeChat article from these verified materials.",
+      "zh": "根据这些真实材料，写一篇有判断、有细节的公众号文章"
+    }
+  ]
+}
