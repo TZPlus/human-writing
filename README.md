@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/KKKKhazix/human-writing/releases/tag/v1.1.0"><img alt="Version 1.1.0" src="https://img.shields.io/badge/version-1.1.0-C4473A?style=flat-square"></a>
+  <a href="https://github.com/KKKKhazix/human-writing/releases/tag/v1.1.1"><img alt="Version 1.1.1" src="https://img.shields.io/badge/version-1.1.1-C4473A?style=flat-square"></a>
   <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-313131?style=flat-square"></a>
   <a href="https://github.com/KKKKhazix/human-writing/releases/latest"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/KKKKhazix/human-writing?style=flat-square&color=6B6258"></a>
 </p>
@@ -112,5 +112,5 @@ MIT 协议开源。仓库只有原创规则和工具，没有第三方文章、�
 碰到规则冲突、误报或者某个模型上表现不对，欢迎[提 Issue](https://github.com/KKKKhazix/human-writing/issues)。附上你的提示词、模型输出片段和你觉得应该是什么样，排查起来快很多。
 
 <p align="center">
-  <sub>活人感写作 · Human Writing · 1.1.0</sub>
+  <sub>活人感写作 · Human Writing · 1.1.1</sub>
 </p>
